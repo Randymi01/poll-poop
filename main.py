@@ -40,8 +40,7 @@ def selector(choice, driver):
 
 while True:
     try:
-        #url=int(input('8 number poll value: '))
-        url=
+        url=int(input('8 number poll value: ')
     except ValueError:
         print('\nMust be value' )
     else:
