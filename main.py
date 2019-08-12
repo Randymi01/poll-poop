@@ -1,4 +1,3 @@
-import keyboard
 import sys
 import require
 from fullscreen import maximize_console
@@ -8,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 maximize_console()
-if not require.require(['keyboard','selenium']):
+if not require.require(['selenium']):
     x=input()
     sys.exit()
 
@@ -40,7 +39,7 @@ def selector(choice, driver):
 
 while True:
     try:
-        url=int(input('8 number poll value: ')
+        url=int(input('8 number poll value: '))
     except ValueError:
         print('\nMust be value' )
     else:
