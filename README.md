@@ -1,3 +1,2 @@
 # poll-poop
-why would you even use this
-only big brained people use this
+Using Selenium to influence votes on strawpoll.me
