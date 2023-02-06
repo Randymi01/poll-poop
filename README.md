@@ -1,2 +1,2 @@
 # poll-poop
-Using Selenium to influence votes on strawpoll.me
+strawpoll with selenium
